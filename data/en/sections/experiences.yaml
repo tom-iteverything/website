@@ -11,54 +11,64 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Cigna
+    url: "https://cigna.com"
+    location: WAH/WFH/Remote
+    overview: Providing leadership & future direction of technology for DevOps engineers.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Sr. Engineering Manager (Infrastructure)
+    start: Mar 2019
+    #end: Mar 2017
+    responsibilities:
+    - Oversee multi-million AUM for licensure
+    - Provide knowledge & feedback in POC efforts for new technologies
+    - Hire/Develop to guide careers of engineers
+    - Consume coffee
+
+- company:
+    name: Cigna
+    url: "https://cigna.com"
+    location: Philadelphia, PA
+    overview: Technical lead for Operations across multiple critical shared infrastructure services.
+  positions:
+  - designation: Sr. Infrastructure Engineer
+    start: Mar 2017
+    end: Mar 2019
+    responsibilities:
+    - Excelled in Operations to lower SLA response time & resolution
+    - Provided triaging efforts to resolve any infrastructure-related issue with an application
+    - Learned multiple technologies in the Middleware-stack
+    - Took part in the _dreaded pager rotation_
+
+- company:
+    name: Cigna
+    url: "https://cigna.com"
+    location: Philadelphia, PA
+    overview: Working in Systems Management providing Infrastructure & Application Performance Monitoring.
+  positions:
+  - designation: Infrastructure Engineer (TECDP)
+    start: Jan 2014
+    end: Mar 2017
+    responsibilities:
+    - Provided Application Performance Monitoring via **CA APM Introscope (Wily)** to multiple Applications
+    - Defined KPIs & created standard, and custom, dashboards for customers
+    - Assisted with development of automation for delivering monitoring faster
+    - Attended multiple fundraisers with the TECDP Program & affiliates
+
+- company:
+    name: UPenn - Veterinary School
+    url: "https://www.vet.upenn.edu/"
+    location: Philadelphia, PA
+    # company overview
+    overview: School of Veterinary Medicine & Ryan Veterinary Hospital. Conducting
+  positions:
+  - designation: IT Technical Support
+    start: Jan 2012
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Jan 2014
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Create & Deploy desktop images
+    - Investigate & resolve any issue for IT-related equipment
+    - Provide AVN support to all faculty & staff
+    - Pet every single puppy & kitty possible
