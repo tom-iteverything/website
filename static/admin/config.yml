@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: '$GITHUB_REF_NAME' # Branch to update (optional; defaults to master)
+  branch: '$GITHUB_BASE_REF' # Branch to update (optional; defaults to master)
 media_folder: ""
 public_folder: ""
 collections:
