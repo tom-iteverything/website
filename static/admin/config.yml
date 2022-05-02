@@ -12,12 +12,38 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Tags', name: 'tags', widget: 'list', default: ["post"] }
-      - { label: 'Featured Image', name: 'image', widget: 'image' }
-      - { label: 'Image Caption', name: 'imageAlt', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        default: ["post"]
+      - label: 'Featured Image'
+        name: 'image'
+        widget: 'image'
+      - label: 'Image Caption'
+        name: 'imageAlt'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Sidebar Name'
+        name: 'menu.sidebar.name'
+        widget: 'string'
+      - label: 'Sidebar Weight'
+        name: 'menu.sidebar.weight'
+        widget: 'string'
+      - label: 'Identifier (URL Slug)'
+        name: 'menu.sidebar.identifier'
+        widget: 'string'
+        
