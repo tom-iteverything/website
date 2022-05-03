@@ -1,9 +1,10 @@
 [build]
 publish = "public"
 command = "hugo --gc --minify"
+HUGO_VERSION = "0.98.0"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.98.0"
