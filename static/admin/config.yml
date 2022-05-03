@@ -8,8 +8,8 @@ collections:
   - name: 'post'
     label: 'Post'
     folder: 'content/posts'
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     create: true
-    slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
     editor:
       preview: true
     fields:
@@ -19,7 +19,6 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', default: ["post"] }
       - { label: 'Featured Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: "Sidebar Name", name: "menu.sidebar.name", widget: "string" }
-      - { label: "Sidebar Weight", name: "menu.sidebar.name", widget: "string" }
-      - { label: "Identifier (URL Slug)", name: "menu.sidebar.identifier", widget: "string" }
-      
+      - { label: 'Sidebar Name', name: 'menu.sidebar.name', widget: 'string' }
+      - { label: 'Sidebar Weight', name: 'menu.sidebar.name', widget: 'string' }
+      - { label: 'Identifier (URL Slug)', name: 'menu.sidebar.identifier', widget: 'string' }
