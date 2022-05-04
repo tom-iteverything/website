@@ -3,7 +3,6 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: ""
 public_folder: ""
-format: yaml-frontmatter
 collections:
   - name: 'post'
     label: 'Post'
