@@ -18,6 +18,6 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', default: ["post"] }
       - { label: 'Featured Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Sidebar Name', name: 'menu.sidebar.name', widget: 'string' }
+      - label: 'Sidebar Name', name: 'menu.sidebar.name', widget: 'string' 
       - { label: 'Sidebar Weight', name: 'menu.sidebar.weight', widget: 'string' }
       - { label: 'Identifier (URL Slug)', name: 'menu.sidebar.identifier', widget: 'string' }
