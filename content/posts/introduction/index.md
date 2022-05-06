@@ -7,7 +7,7 @@ menu:
     name: Introduction
     identifier: introduction
     weight: 10
-hero: /images/posts/hello_sign.jpg
+hero: hello_sign.jpg
 tags: ["Basic"]
 categories: ["Basic"]
 draft: false

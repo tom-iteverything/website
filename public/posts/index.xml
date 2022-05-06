@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tom Kaufmann</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Tom Kaufmann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 May 2022 08:06:25 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Blog Introduction</title>
+      <link>/posts/introduction/</link>
+      <pubDate>Wed, 04 May 2022 08:06:25 -0400</pubDate>
+      
+      <guid>/posts/introduction/</guid>
+      <description>Hello! This is an introduction to the blog-side of my site. I&amp;rsquo;ll most likely be posting about the following stuff that interests me:
+ Anything from a technical perspective that I&amp;rsquo;m learning, or struggling with. Some &amp;ldquo;techy things&amp;rdquo; I&amp;rsquo;ve done around my house. Stuff? I don&amp;rsquo;t know, but you get the point. Maybe some dogs or something.  </description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>
