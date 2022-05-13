@@ -12,10 +12,10 @@ updates:
   - "automerge"
 
 # Update the Github Action  versions
-#- package-ecosystem: "github-actions"
-#  directory: "/"
-#  schedule:
-#    interval: "daily"
-#  labels:
-#  - "dependencies"
-#  - "automerge"
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+  - "dependencies"
+  - "automerge"
