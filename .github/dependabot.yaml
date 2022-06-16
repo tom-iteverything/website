@@ -7,7 +7,10 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
+  rebase-strategy: "auto"
   labels:
   - "dependencies"
   - "automerge"
   - "enhancement"
+  target-branch: "main"
+  
