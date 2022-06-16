@@ -7,16 +7,10 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-  labels:
-  - "dependencies"
-  - "automerge"
-
-# Update the Github Action  versions
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: "daily"
+  rebase-strategy: "auto"
   labels:
   - "dependencies"
   - "automerge"
   - "enhancement"
+  target-branch: "main"
+  
