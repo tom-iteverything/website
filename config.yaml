@@ -4,6 +4,9 @@ languageCode: en-us
 title: "Tom Kaufmann"
 theme: "toha"
 
+#darkmode
+dark-mode: true
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
@@ -174,3 +177,8 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: false
+# Dark theme toggle
+  darkMode:
+    provider: darkreader
+    enable: true
+    default: dark
