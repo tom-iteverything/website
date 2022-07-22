@@ -10,7 +10,7 @@ updates:
   rebase-strategy: "auto"
   labels:
   - "dependencies"
-  - "automerge"
+  - "merge"
   - "enhancement"
   target-branch: "main"
   
