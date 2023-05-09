@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.98.0" />
+	<meta name="generator" content="Hugo 0.111.3">
     <title>Tom Kaufmann</title>
     
     
@@ -16,18 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
 
-<link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/layouts/main.css"/>
-<link rel="stylesheet" href="/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/css/plyr.css"/>
-<link rel="stylesheet" href="/css/flag-icon.min.css"/>
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-
-
-<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
 
 
 
@@ -56,45 +46,13 @@
 <meta property="og:image" content="/images/author/tk_headshot.png">
 <meta property="og:url" content="https://hugo-toha.github.io">
 
-    <link rel="stylesheet" href="/css/sections/home.css"/>
-    <link rel="stylesheet" href="/css/sections/about.css"/>
-    <link rel="stylesheet" href="/css/sections/skills.css"/>
-    <link rel="stylesheet" href="/css/sections/experiences.css"/>
-    <link rel="stylesheet" href="/css/sections/education.css"/>
-    <link rel="stylesheet" href="/css/sections/projects.css"/>
-    <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
-    <link rel="stylesheet" href="/css/sections/achievements.css"/>
-    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tom Kaufmann"/>
+<meta name="twitter:description" content=""/>
+
+
 
     
-    <link rel="stylesheet" href="/css/style.css"/>
-    
-    
-
-    
-        
-        
-            
-            
-            
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-122321624-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-        
-
-        
-        
-
-        
         
     
 
@@ -166,7 +124,7 @@ if (!doNotTrack) {
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="top-nav-items">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
@@ -217,8 +175,9 @@ if (!doNotTrack) {
         
         
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+            <a class="nav-link" id="blog-link" href="/posts/">Posts</a>
           </li>
+        
         
         
         
@@ -297,7 +256,6 @@ if (!doNotTrack) {
   <style>
      
     #homePageBackgroundImageDivStyled {
-        
       background-image: url('/images/site/background_hu3d03a01dcc18bc5be0e67db3d8d209a6_386804_500x0_resize_q75_box.jpg');
     }
      
@@ -357,7 +315,7 @@ if (!doNotTrack) {
         
           
         
-        <a href="#about" aria-label="Read More - Tommy K."><i class="arrow bounce fa fa-chevron-down"></i></a>
+        <a href="#about" class="arrow-center" aria-label="Read More - Tommy K."><i class="arrow bounce fa fa-chevron-down"></i></a>
       
     
   </div>
@@ -396,7 +354,7 @@ if (!doNotTrack) {
       </h5>
       
       <p class="p-1 text-justify">
-        I am a passionate IT individual at heart. Starting off in the typical Desktop Support roles, moving into Engineering and currently landing myself in Management. On the side I look towards building my skillset with <strong>Cloud Native Technology</strong>, like <strong><a href="https://kubernetes.io">Kubernetes</a></strong>.
+        I am a passionate IT individual at heart. Starting off in the typical Desktop Support roles, moving into Engineering and currently landing myself in Management. On the side I look towards building my skillset with <strong>Cloud Native Technology</strong>, like <strong><a href="https://kubernetes.io" target="_blank" rel="noopener">Kubernetes</a></strong>.
       </p>
       <div class="text-container ml-auto">
         <ul class="social-link d-flex">
@@ -437,6 +395,7 @@ if (!doNotTrack) {
       <a href="/files/kaufmann_resume.pdf" title="My resume" target="#"
         ><button class="btn btn-dark">My resume</button></a
       >
+      
       
     </div>
     
@@ -904,13 +863,16 @@ if (!doNotTrack) {
         <span id="education"></span>Education</h1>
   
 
-    <div class="container">
-        <table class="education-info-table">
-            <tbody>
-                
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
                         <div class="icon-holder">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
@@ -937,9 +899,11 @@ if (!doNotTrack) {
                     </td>
                 </tr>
                 
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
                         <div class="icon-holder">
                             <i class="fas fa-university"></i>
                         </div>
@@ -1136,7 +1100,7 @@ if (!doNotTrack) {
     <div class="container">
       <div class="row text-left">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
             Toha
           </a>
@@ -1157,20 +1121,9 @@ if (!doNotTrack) {
   </footer>
 
 
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/popper.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="/js/navbar.js"></script>
-<script type="text/javascript" src="/js/plyr.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
+    <script src="/scripts/application.js" integrity="" defer></script>
 
 
-    
-    <script src="/js/itype.min.js"></script>
-    <script src="/js/github-button.js"></script>
-    <script src="/js/home.js"></script>
-    <script src="/js/jquery.filterizr.min.js"></script>
 
     
 </body>

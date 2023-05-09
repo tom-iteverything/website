@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Posts</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
 
-<link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/layouts/main.css"/>
-<link rel="stylesheet" href="/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/css/plyr.css"/>
-<link rel="stylesheet" href="/css/flag-icon.min.css"/>
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-
-
-<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
 
 
 
@@ -38,43 +28,16 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/posts/" />
 
-
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
 
     
-    
-    <link rel="stylesheet" href="/css/layouts/list.css">
-    <link rel="stylesheet" href="/css/navigators/sidebar.css">
-    
-    <link rel="stylesheet" href="/css/style.css"/>
-
-
+     
 
     
 
     
-        
-        
-            
-            
-            
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-122321624-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-        
-
-        
-        
-
-        
         
     
 
@@ -83,7 +46,7 @@ if (!doNotTrack) {
 
 </head>
 
-  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+  <body class="type-posts kind-section" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
     <div class="container-fluid bg-dimmed wrapper">
       
       
@@ -118,19 +81,20 @@ if (!doNotTrack) {
 
 <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
   <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="/">
       
         <img src="/images/site/main-logo_hue196028ca75d822328e3e7ab0bb3563b_5066_42x0_resize_box_3.png" alt="Logo">
       Tom Kaufmann</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
+      
       
       </ul>
     </div>
@@ -162,15 +126,6 @@ if (!doNotTrack) {
             <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
             <div class="subtree">
                 
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
-  
-
 
             </div>
           </ul>
@@ -187,32 +142,6 @@ if (!doNotTrack) {
     <div class="container-fluid post-card-holder" id="post-card-holder">
       
       
-      
-        
-          <div class="post-card">
-  <a href="/posts/introduction/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Blog Introduction</h5>
-        <p class="card-text post-summary">Hello! This is an introduction to the blog-side of my site. I&rsquo;ll most likely be posting about the following stuff that interests me:
- Anything from a technical perspective that I&rsquo;m learning, or struggling with. Some &ldquo;techy things&rdquo; I&rsquo;ve done around my house. Stuff? I don&rsquo;t know, but you get the point. Maybe some dogs or something.  </p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">May 4, 2022</span>
-        <a
-        href="/posts/introduction/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
-
-        
       
     </div>
     <div class="paginator">
@@ -374,7 +303,7 @@ if (!doNotTrack) {
     <div class="container">
       <div class="row text-left">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
             Toha
           </a>
@@ -395,19 +324,12 @@ if (!doNotTrack) {
   </footer>
 
 
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/popper.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script src="/scripts/application.js" integrity="" defer></script>
 
-<script type="text/javascript" src="/js/navbar.js"></script>
-<script type="text/javascript" src="/js/plyr.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
 
 
     
-    
-    <script src="/js/list.js"></script>
-
+     
 
     
 </body>
