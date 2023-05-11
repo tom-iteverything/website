@@ -2,30 +2,44 @@
 section:
   name: Projects
   id: projects
-  enable: false
+  enable: true
   weight: 5
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # filter buttons
-#buttons:
-#- name: All
-#  filter: "all"
-#- name: Professional
-#  filter: "professional"
-#- name: Academic
-#  filter: "academic"
-#- name: Hobby
-#  filter: "hobby"
+buttons:
+  - name: All
+    filter: "all"
+  - name: Certifications
+    filter: "certifications"
+  #- name: Professional
+  #  filter: "professional"
+  # - name: Hobby
+  #   filter: "hobby"
 
 # your projects
-#projects:
-#- name: Kubernetes
-#  logo: /images/sections/projects/kubernetes.png
-#  role: Contributor
-#  timeline: "March 2018 - Present"
-#  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-#  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-#  summary: Production-Grade Container Scheduling and Management.
-#  tags: ["professional", "kubernetes", "cloud"]
+projects:
+  - name: "AWS Certified Cloud Practitioner"
+    logo: /images/sections/skills/aws_logo.png
+    timeline: June 2022
+    url: https://www.credly.com/badges/e9f26f2f-81c7-44ef-a379-908d2dcb24b7/public_url
+    summary: |
+      Earners of this certification have a fundamental understanding of IT services and their
+      uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge.
+      Certified individuals are able to identify essential AWS services necessary to set up
+      AWS-focused projects.
+    tags: ["certifications", "aws"]
+  
+  - name: "AWS Certified Solutions Architect – Associate"
+    logo: /images/sections/skills/aws_logo.png
+    timeline: February 2023
+    url: https://www.credly.com/badges/11f7ab98-6bbf-4877-8a10-136683b4bb0a/public_url
+    summary: |
+      Earners of this certification have a comprehensive understanding of AWS services and
+      technologies. They demonstrated the ability to build secure and robust solutions using
+      architectural design principles based on customer requirements.  Badge owners are able
+      to strategically design well-architected distributed systems that are scalable, resilient,
+      efficient, and fault-tolerant.
+    tags: ["certifications", "aws"]

@@ -75,6 +75,21 @@ badges:
   percentage: 100
   color: green
 
+- type: soft-skill-indicator
+  name: Gamer
+  percentage: 100
+  color: "#008080"
+
+- type: soft-skill-indicator
+  name: Tennis Player
+  percentage: 50
+  color: "#dfff4f"
+
+- type: soft-skill-indicator
+  name: Husband/Father
+  percentage: 100
+  color: "#6500B0"
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
